@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="test suite" verbose="2"  parallel="methods" thread-count="5"> 
+<listeners>
+<listener class-name="testNGInterview.IAnnotationTransformerExample"> </listener>
+</listeners>
+<test name="testcase">
+<classes>
+<class name="testNGInterview.InterviewQuestions"></class>
+</classes>
+</test>
+</suite>

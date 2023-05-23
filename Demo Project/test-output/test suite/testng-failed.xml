@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [test suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <listeners>
+    <listener class-name="testNGInterview.IAnnotationTransformerExample"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="testcase(failed)" verbose="2">
+    <classes>
+      <class name="testNGInterview.InterviewQuestions">
+        <methods>
+          <include name="testcase"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- testNGInterview.InterviewQuestions -->
+    </classes>
+  </test> <!-- testcase(failed) -->
+</suite> <!-- Failed suite [test suite] -->
